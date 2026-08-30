@@ -1,0 +1,10 @@
+Firstmate relaunch runtime evidence
+HEAD=4269fac892b483f0bb2f39556bcd8e6b20f8d423
+fish=fish, version 4.8.1
+tmux=tmux 3.7b
+PROMPT_HOOK_OBS traceparent=prompt-restored prompts=1
+AGENT_STARTED traceparent=unset raw_setup=ready prompts=2
+selected=claude target=relaunch-evidence:agent confirmation_1=started confirmation_2=started foreground=[/var/folders/w8/b0vdr9ld3dsg1dyb06ctbr6c0000gn/T//fm-relaunch-evidence.F7r4eP/bin/claude/claude ]
+selected=claude target=relaunch-evidence:fish verdict=rejected foreground=[/bin/sh sleep ]
+selected=claude target=relaunch-evidence:wrong verdict=rejected foreground=[/var/folders/w8/b0vdr9ld3dsg1dyb06ctbr6c0000gn/T//fm-relaunch-evidence.F7r4eP/bin/codex ]
+selected=claude target=relaunch-evidence:absent verdict=rejected
